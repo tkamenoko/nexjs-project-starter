@@ -1,2 +1,3 @@
-# nexjs-project-starter
-Nexjs, SCSS, TypeScript, Jest, ESLint, and Next plugins.
+# nextjs-project-starter
+
+Nextjs, SCSS, TypeScript, Jest, ESLint, and Next plugins.
