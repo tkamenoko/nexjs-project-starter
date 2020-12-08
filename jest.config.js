@@ -4,11 +4,14 @@ module.exports = {
   globalSetup: '<rootDir>/jest.globalSetup.ts',
   globalTeardown: '<rootDir>/jest.globalTeardown.ts',
   testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
-  transform: {
-    '.+\\.module\\.(css|styl|less|sass|scss)$': 'jest-css-modules-transform',
-  },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
     '^@@/(.*)$': '<rootDir>/tests/$1',
+    '.+\\.(css|styl|less|sass|scss)$': 'identity-obj-proxy',
+  },
+  globals: {
+    'ts-jest': {
+      tsconfig: 'tsconfig.jest.json',
+    },
   },
 };

@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
-import { PropsWithChildren, ReactElement } from 'react';
+import React, { PropsWithChildren, ReactElement } from 'react';
 
 import styles from './layout.module.scss';
 
