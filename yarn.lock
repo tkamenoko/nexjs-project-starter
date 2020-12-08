@@ -6968,6 +6968,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"modern-normalize@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "modern-normalize@npm:1.0.0"
+  checksum: 013c442ba2a58ce79cf790ffa8ac461ac67b1f3904ba7bf4ff0a83a5e443500730c1dd1d1af66d2066f8f1500ba8e150aa32518c6a294e0ab0c93692a59b77ee
+  languageName: node
+  linkType: hard
+
 "move-concurrently@npm:^1.0.1":
   version: 1.0.1
   resolution: "move-concurrently@npm:1.0.1"
@@ -7095,6 +7102,7 @@ fsevents@~2.1.2:
     eslint-plugin-simple-import-sort: ^6.0.1
     jest: ^26.6.3
     jest-css-modules-transform: ^4.0.2
+    modern-normalize: ^1.0.0
     next: ^10.0.3
     next-compose-plugins: ^2.2.1
     next-images: ^1.6.2

@@ -58,6 +58,7 @@
     "eslint-plugin-simple-import-sort": "^6.0.1",
     "jest": "^26.6.3",
     "jest-css-modules-transform": "^4.0.2",
+    "modern-normalize": "^1.0.0",
     "prettier": "^2.2.1",
     "sass": "^1.29.0",
     "ts-jest": "^26.4.4",
