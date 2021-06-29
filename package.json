@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "test": "jest",
+    "build": "next build",
     "up-i": "npm-upgrade",
     "up-types": "typesync",
     "lint": "eslint src/",
@@ -36,6 +37,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.1.9",
+    "@tsconfig/next": "^1.0.0",
     "@types/eslint": "^7.2.13",
     "@types/eslint-config-prettier": "^6.11.0",
     "@types/eslint-plugin-prettier": "^3.1.0",
