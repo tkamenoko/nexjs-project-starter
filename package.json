@@ -8,7 +8,7 @@
     "test": "jest",
     "lint": "eslint src/",
     "types": "run scss && tsc --noemit",
-    "scss": "pnpify tsm src --implementation sass --nameFormat none --exportType default --aliasPrefixes.~ node_modules/",
+    "scss": "tsm src --implementation sass --nameFormat none --exportType default --aliasPrefixes.~ node_modules/",
     "lint-all": "run types && run lint"
   },
   "repository": {
@@ -46,7 +46,6 @@
     "@types/testing-library__jest-dom": "^5.9.5",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
-    "@yarnpkg/pnpify": "^2.4.0",
     "dotenv": "^8.2.0",
     "dotenv-expand": "^5.1.0",
     "eslint": "^7.21.0",
